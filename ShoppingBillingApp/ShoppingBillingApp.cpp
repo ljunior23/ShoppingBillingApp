@@ -92,9 +92,9 @@ m:
     cout << "\n\t\t\t|                              |";
     cout << "\n\t\t\t|_______ 2) Modify the product__|";
     cout << "\n\t\t\t|                              |";
-    cout << "\n\t\t\t|_______ 2) Delete the product__|";
+    cout << "\n\t\t\t|_______ 3) Delete the product__|";
     cout << "\n\t\t\t|                              |";
-    cout << "\n\t\t\t|_______ 2) Back to Main Menu___|";
+    cout << "\n\t\t\t|_______ 4) Back to Main Menu___|";
 
     cout << "Please Enter your choice";
         cin>> choice;
@@ -331,7 +331,7 @@ m:
     int arrq[100];
     char choice;
     int c = 0;
-    float amount;
+    float amount=0;
     float dis = 0;
     float total = 0;
 
